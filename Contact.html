@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"> <!--lien css bootstrap-->
+    <link rel="stylesheet" href="/CSS/c2-projet.css">
+    <script src="JS/bootstrap.bundle.min.js" defer></script> <!--lien js bootstarp//differé-->
+    <title>Club Auto</title> <!--titre de l'onglet-->
+</head>
+
+<body> 
+
+<!--début du header-->
+<header class="header text-responsive">
+
+    <div class="title">
+        <p><strong><h1>CLUB AUTO</h1></strong></p>
+    </div>
+  
+    <div class="item">
+         <img class="logo-adresse" src="Images/icone-adresse.png" alt="logo-adresse">
+        <p class="color">ADRESSE:</p>
+        <p>AVENUE CHARLES DE GAULLE <br> 75000 PARIS </br></p>
+    </div>
+  
+    <div class="item">
+        <img class="logo-telephone" src="Images/icon-telephone.png" alt="logo-telephone">
+        <p class="color">TELEPHONE:</p>
+        <p> 01 23 45 67 89</p>
+    </div>
+  
+    <div class="item">
+        <p class="color">OUVERTURE: </p>
+        <p>Du Lundi au Samedi</p>
+    </div>
+  
+    <div class="item">
+        <p class="color">HORAIRES:</p>
+        <p>De 9h à 17h</p>
+    </div> 
+  
+    <div>
+        <!--Logo et lien Facebook-->
+        <a href="https://www.facebook.com"><img class="facebook" src="Images/facebook.svg" alt="icon-facebook" title="Facebook" role="button"></a> 
+         <!--Logo et lien Twitter-->
+        <a href="https://twitter.com/"><img class="twitter" src="Images/twitter.svg" alt="icon-twitter" title="Twitter" role="button"></a>
+  </div>  
+  
+  </header>
+  
+  <!--fin du header-->
+
+<!--debut de la barre de navigation-->
+<ul>
+    <li><a class="nav" id="menu" href="Index.html">Accueil</a></li>
+    <li><a class="nav" id="menu" href="Contact.html">Contact</a></li>
+    <li><a class="nav" id="menu" href="Ventes.html">Ventes</a></li>
+    <li><a class="nav" id="menu" href="Locations.html">Location</a></li>
+  </ul>
+  
+  <!--Fin de la barre de navigation-->
+
+<div>
+<h1 class="form" id="form">Contactez-nous</h1>
+<img class="img6" src="images/img6.jpg" alt="img-voiture">
+</div>
+
+<!--Début du formulaire-->
+<!-- Formulaire de Contact-->
+<div class="contactez-nous">
+  <h1>Contactez-nous</h1>
+  <p>Un problème, une question, utilisez ce formulaire pour prendre contact avec nous !</p>
+  <form action="/page-traitement-donnees" method="post">
+      <div>
+          <label for="nom">Votre nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Mon Nom" required>
+      </div>
+      <div>
+          <label for="Prénom">Votre Prénom</label>
+          <input type="text" id="nom" name="nom" placeholder="Mon Prénom" required>
+      </div>
+      <div>
+          <label for="téléphone">Votre Téléphone</label>
+          <input type="text" id="nom" name="nom" placeholder="Mon Téléphone" required>
+      </div>
+      <div>        
+          <label for="email">Votre e-mail</label>
+          <input type="email" id="email" name="email" placeholder="Mon e-mail" required>
+      </div>
+      <div>
+          <label for="message">Votre message</label>
+          <textarea id="message" name="message" placeholder="Mon Message" required></textarea>
+      </div>
+      <div>
+          <button type="submit">Envoyer mon message</button>
+      </div>
+  </form>
+</div>
+
+<!--fin du formulaire-->
+
+<!--footer-->
+<footer>
+  <div class="footer">
+
+    <div class="clubauto p-2 m-2 justify-content-around">
+    <p class="text" id="titre3"><strong><h3 id="club">CLUB</strong> <strong>AUTO</strong></h3></p>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Laudantium neque dolorem consectetur minus voluptas. 
+    </P>
+</div>
+   
+<div class="horaires p-2 m-2 justify-content-around">
+    <h3 class="h5">HORAIRES D'OUVERTURE</h3>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Laudantium neque dolorem consectetur minus voluptas. 
+    </P>
+</div>
+   
+<div class="newsletter p-2 m-2 justify-content-around">
+    <h3 class="h5">NEWSLETTER</h3>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Laudantium neque dolorem consectetur minus voluptas. 
+    </P>
+</div>
+
+<!--boutons reseaux sociaux-->    
+<div class="reseaux">
+    <h3 class="h5">RESEAUX SOCIAUX</h3>
+<a href="https://www.facebook.com/facebook/"><img class="facebook1" src="Images/facebook.svg" alt="icon-facebook"></a>
+<a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin"><img class="twitter1" src="Images/twitter.svg" alt="icon-twitter"></a>
+<a href="https://www.instagram.com/"><img class="insta1" src="Images/instagram.png" alt="icon-insta1"></a>
+<a href="https://www.google.fr/"><img class="google1" src="Images/google-plus.png" alt="icon-google1"></a>
+</div>
+
+ </div>
+<div class="Copyright" id="Copyright">
+
+<p>Copyright &#169; Club Auto - Tous droits réservés</p>
+<hr>
+</div>
+
+  
+
+
+</footer>
+</html>
