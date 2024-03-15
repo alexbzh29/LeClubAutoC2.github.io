@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@media screen and (max-width: 1200px) {/* Insérez vos propriétés CSS ici, avec vos sélecteurs*/}
+@media all and (min-width: 1024px) and (max-width: 1280px){/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */}
+@media all and (orientation: portrait){/* Sur tous types d'écrans orientés verticalement */}  
+
+  html{
+    font-family: 'Kalam', cursive;
+}
+/*-----------------------header-------------------------*/
+.header{
+  display: flex;
+  text-align: center;
+  background-color: rgb(0, 0, 0); 
+  color: rgb(246, 240, 240);
+}
+.item p{
+  min-width: 25%;
+  max-width: 100%;
+  display: block;
+  text-align:center;
+  padding: 10px;
+  margin: 15px;
+ 
+} 
+.color{
+ color:  #CC6119;
+ width:10px;
+ padding: 10%;
+ margin:15px ;
+ text-align: center;
+}
+
+.title{
+  width: 15%;
+  padding: 20px;
+  margin: 10px;
+}
+.item{
+  width: 15%;
+  padding: 5px;
+  margin: 5px
+}
+
+.item2{
+  width: 10%;
+  padding:10px;
+  margin: 55px;
+}
+
+.logo-adresse{
+  display: inline-flex;
+  width: 50px;
+  padding:10px;
+  margin: 5px;
+}
+
+.logo-telephone{
+  display: inline-flex;
+  width: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.facebook{
+  width: 25px;
+  display: inline-flex;
+  padding: 1px;
+  margin: 15px;
+  background-color: #CC6119;
+}
+.twitter{
+  width: 25px;
+  display: inline;
+  padding: 1px;
+  margin: 15px;
+  background-color: #CC6119;
+}
+
+/*----------fin du header-----------------*/
+
+/*---------debut barre de nav-------------*/
+
+.navbar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #000000;
+}
+
+li {
+  float: right;
+  
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px 18px;
+  text-decoration: none;
+}
+
+nav ul{
+  flex-direction: row-reverse; /*inverse les élements de nav*/
+}
+
+li a:hover:not(.active) {
+  background-color: #CC6119;
+}
+
+/*------------fin barre de nav-----------*/
+
+/*------------park auto------------------*/
+.img1 {
+  width: 90%; 
+  height:50%;
+  margin: 0px;
+  padding:7px;
+}
+
+.bandeau {
+  margin: 0px;
+  padding-left: 10px;
+  color: #ffffff;
+  background-color: #000000;
+  line-height: 2em;
+  font-size: 35px;
+}
+
+.ma {
+  color: #CC6119 ;
+  width: 100%;
+  font-size: 2em;
+
+   }
+/*------------fin park auto--------------*/
+
+
+/*------------photo clients et texte-----*/
+img{
+  height: auto;
+  width: 70%;
+  margin: 15px;
+  padding: 5px -30;
+}
+
+#welcome{
+  display: inline-flex;
+}
+.ca{
+  color: #CC6119;
+  font-size: 50px;
+}
+
+#text1{
+  padding: 0px;
+}
+
+/*-------------fin---------------------*/
+
+.lustrage {
+  width:5%; 
+  height: 5px;
+  margin: 40px;
+}
+
+.liste {
+  color: rgb(255, 255, 255);
+  width: 25%;
+  padding-inline: 5%;
+  margin: 2%;
+  margin-left:12%;
+}
+
+.liste::before {
+  content: '\2713'; /* Code Unicode pour la coche ✔ */
+  color: #CC6119;
+  margin-right: 5px;
+}
+
+.ligne-marron{
+  color: #CC6119;
+}
+
+.pause{
+
+  width:90%; 
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.block2 {
+  background-color: #fab637;
+  margin: 3%;
+  padding-top: 1%;
+}
+
+.block1 {
+  background-color: #FF4848;
+  margin: 3%;
+  padding-top: 1%;
+}
+
+/*véhicules recents block */
+
+#vehicule1{
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.prix1{
+  background-color: #6C98E1;
+  text-align: center;
+}
+
+#vehicule2{
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.prix2{
+  background-color: #6C98E1;
+  text-align: center;
+}
+
+#vehicule3{
+  width: 50%;
+  height: auto;
+  margin-left: 5%;
+}
+.prix3{
+  background-color: #6C98E1;
+  text-align: center;
+}
+
+/*pourquoi nous choisir*/
+#service{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+.service_item p{
+  text-align: justify;
+  padding: 20px;
+  width: auto;
+}
+.sticker{
+  width: 15%;
+}
+
+.btn1{
+  background-color: #6C98E1;
+}
+
+#img6{
+  width: 100%;
+  height: auto;
+}
+/*yellowblock*/
+#yellowblock{
+  background-color: #FAB637;
+}
+
+/*--------------footer-------------*/
+
+.footer{
+  display:flexbox;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-auto-rows: 110px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+#club{
+  color: #6C98E1;
+}
+
+/*icon reseaux sociaux*/
+.reseaux{
+  background-color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.facebook1{
+  background-color: #ffffff;
+  width: 30px; 
+  height: auto;
+  border-radius: 5px;
+}
+.twitter1{
+  background-color: #ffffff;
+  width: 30px; 
+  height: auto;
+  border-radius: 5px;
+}
+.insta1{
+  background-color: #ffffff;
+  width: 30px; 
+  height: auto;
+  border-radius: 5px;
+}
+.google1{
+  background-color: #ffffff;
+  width: 30px; 
+  height: auto;
+  border-radius: 5px;
+}
+
+.Copyright{
+  color: #000000;
+  text-align:center;
+}
+
+/*contact*/
+
+.img6{
+  width: 100%;
+  margin: 0%;
+  padding:0%;
+  padding-bottom: 0%;
+}
+
+/*champs de formulaire*/
+.contactez-nous {
+  width: 700px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0 50px 0 50px;
+  background: white;
+  }
+#nom{
+  color: #CC6119;
+  background-color: #ECEFF3;
+  width: 25%;
+  height:50px;
+}
+#prenom{
+  color: #CC6119;
+  background-color: #ECEFF3;
+  width:25%;
+  height: 50px;
+}
+#email{
+  color: #CC6119;
+  background-color: #ECEFF3;
+  width: 25%;
+  height:50px;
+}
+#telephone{
+  color: #CC6119;
+  background-color: #ECEFF3;
+  width: 25%;
+  height: 50px;
+}
+#message{
+  color: #CC6119;
+  background-color: #ECEFF3;
+  width: 25%;
+  height: 50px;
+}
+
+input{
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  margin: 10px;;
+  padding: 5px;
+  padding-right: 15em;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+textarea{
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  flex-direction:column;
+  margin: 10px;
+  padding: 10px;
+  padding-right: 15em;
+  border-radius: 5px;
+  justify-content: center;
+  width: 75%;
+  width: 50%;
+  background-color: #a59f9f;
+}
+
+button{
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  flex-direction:column;
+  padding: 10px;
+  padding-right: 15em;
+  margin-left: 2em;
+  border-radius: 5px;
+  background-color: #8ae199;
+}
+
+/*fin du formulaire*/
+
+
+/*location*/
+.img4{
+ display: flex;
+ width: 90%;
+ height:auto;
+ margin: 10px;
+ padding:12px;
+}
+
+.selection{
+  margin: 10px;
+  margin: left 5%;
+  padding: auto;
+  padding-bottom: 1%;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.eurosjours{
+  padding: 5px;
+  margin: 10px;
+  background-color: #6C98E1;
+}
+
+/*ventes*/
+
+.vente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.column1 > .column2 > .column3 > .Column4 {
+  flex: 2;
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

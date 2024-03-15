@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+.header{
+    display: flex;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0); 
+    color: rgb(246, 240, 240);
+}
+.item p{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+   
+} 
+.color{
+   color:  #CC6119;
+}
+
+.title{
+    text-align: justify;
+    padding: 20px;
+}
+
+.item{
+    text-align: center;
+    padding: 20px;
+    margin: 20px
+}
+
+.facebook{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: #CC6119;
+}
+.twitter{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: #CC6119;
+}
+
+/* debut navbar*/
+
+.navbar{
+    padding: 5px;
+    margin: 0px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #000000;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(234, 91, 8);
+    text-align: center;
+    padding: 14px 16px 18px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #de7c15;
+  }
+
+/*fin navbar*/
+
+#service{
+    display: flex;
+    background-color: antiquewhite;
+    color: rgb(21, 57, 177);
+    padding: 20px;
+    text-align: center;
+}
+.service_item p{
+    text-align: justify;
+    padding: 20px;
+}
+#apropos{
+    display: flex;
+}
+#apropos_img{
+    padding: 20px;
+    flex:1;
+    max-width: 100%;
+}
+#apropos_txt{
+    padding: 20px;
+    flex: 2;
+    text-align: justify;
+}
+@media screen and ( max-width : 414px) {}
+    #apropos { 
+color: red;}
+
+
+/*photo clients et texte*/
+
+img{
+    float: left;
+    margin: 10px;
+  }
+  
+  .container{
+    margin: 5px;
+    padding: 5px;
+  }
+  .container img{
+    height: 300px;
+  }
+  
+  .column{
+    float: right;
+    width: 100%;
+    padding: 1px;
+    margin: 0px;
+    margin-right: 1%;
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .text1{
+    margin-left: 10px;
+    padding-left: 5px;
+  }
+  
+  /*-fin-*/
+
